@@ -6,25 +6,21 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Software Developer",
+    cardImage: "assets/images/experience-page/samsung.jpg",
+    place: "Samsung R&D Institue Bangalore",
+    time: "(Jun, 22 - Present)",
+    desp: "<li>Contributed to the development of an in-house Lightweight Blockchain platform, specifically designed for permissioned blockchain applications.</li>" + 
+          "<li>Implemented peer-to-peer transactions which led to a reduction in transaction latency, resulting in a notable efficiency enhancement of 25%.</li>" +
+          "<li>Integrated PrivateShare with Samsung’s QuickShare application, providing a seamless experience for private and secure file sharing.</li>" ,
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
-  },
-  {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Research",
+    cardImage: "assets/images/experience-page/IIITH.png",
+    place: "IIIT, Hyderabad",
+    time: "(Jul, 20 - Jun, 22)",
+    desp:"<li>Worked with <a href='https://ciaoankit.github.io/'> Prof Ankit Gangwal</a> and <a href='https://in.linkedin.com/in/shubh299'> Shubham Singh </a> to investigate potential system vulnerabilities in the Android operating system.We suggested a side channel assault that leverages Bluetooth Low Energy (BLE) advertisements, and we improved it to attain a high data transmission rate</li>"+
+         "<li>Additionally, we identified a security flaw in the Password autofill feature used by Password Managers on Android.</li>",
   },
 ];
 

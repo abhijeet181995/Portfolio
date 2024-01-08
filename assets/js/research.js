@@ -3,122 +3,34 @@
 const researchTable = document.querySelector(".main");
 
 const research = [
-    {
-        title : "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
-        authors : "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup1",
-        image : "assets/images/research-page/inteferenceNetwork.png",
-        citation: {
-            vancouver: "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 1",
-        absbox: "absPopup1"
-    },
 
     {
-        title : "A Call for More Rigor in Unsupervised Cross-lingual Learning",
-        authors : "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup2",
-        image : "assets/images/research-page/crossLingual.png",
-        citation: {
-            vancouver: "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 2",
-        absbox: "absPopup2"
-    },
-
-    {
-        title : "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
-        authors : "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup3",
-        image : "assets/images/research-page/wordRepresentation.png",
-        citation: {
-            vancouver: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 3",
-        absbox: "absPopup3"
-    },
-
-    {
-        title : "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
-        authors : "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup4",
+        title : "AutoSpill: Credential Leakage from Mobile Password Managers",
+        link: "https://dl.acm.org/doi/10.1145/3577923.3583658",
+        authors : "Ankit Gangwal, Shubham Singh, Abhijeet Srivastava",
+        conferences : "13th ACM Conference on Data and Application Security and Privacy (ACM CODASPY 2023)",
+        researchYr : 2022,
         image : "assets/images/research-page/dialogueState.png",
-        citation: {
-            vancouver: "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou. A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 4",
+        abstract: "Password managers (PMs) are becoming increasingly popular on mobile devices, especially on small-screen devices, mainly due to the convenience of automatically filling credentials into login forms. Modern mobile OSes advocate for system-wide autofill frameworks to support autofilling on browsers as well as other apps. Mobile OSes also empower apps to directly render web content within WebView controls without redirecting users to the main browser. \par We present a novel technique, called AutoSpill, to leak users' saved credentials during an autofill operation on a webpage loaded into an app's WebView. AutoSpill conveniently dodges the secure autofill process. The majority of popular Android PMs considered in our experiments were found vulnerable to AutoSpill; even when the app hosting the WebView is not actively participating in the leak. Android intermediates in the autofill process because of its app sandboxing. Hence, the responsibility for any credential leakage is often stranded between PMs and the Android system. We investigate the root causes of AutoSpill and propose countermeasures to fundamentally fix AutoSpill for both the parties. We responsibly disclosed our findings to the affected PMs and Android security team.",
         absbox: "absPopup4"
     },
 
     {
-        title : "Dual Super-Resolution Learning for Semantic Segmentation",
-        authors : "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "popup5",
-        image : "assets/images/research-page/semanticSegmentation.png",
-        citation: {
-            vancouver: "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi. Dual Super-Resolution Learning for Semantic Segmentation. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 5",
-        absbox: "absPopup5"
-    },
-
-    {
-        title : "Deep Unfolding Network for Image Super-Resolution",
-        authors : "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "popup6",
+        title : "BLEWhisperer: Exploiting BLE Advertisements for Data Exfiltration",
+        link: "https://arxiv.org/abs/2204.08042",
+        authors : "Ankit Gangwal, Shubham Singh, Riccardo Spolaor, Abhijeet Srivastava",
+        conferences : "27th European Symposium on Research in Computer Security (ESORICS 2022)",
+        researchYr : 2022,
         image : "assets/images/research-page/deepNetwork.png",
-        citation: {
-            vancouver: "Zhang, Kai and Van Gool, Luc and Timofte, Radu. Deep Unfolding Network for Image Super-Resolution. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 6",
+        abstract: "Bluetooth technology has enabled short-range wireless communication for billions of devices. Bluetooth Low-Energy (BLE) variant aims at improving power consumption on battery-constrained devices. BLE-enabled devices broadcast information (e.g., as beacons) to nearby devices via advertisements. Unfortunately, such functionality can become a double-edged sword at the hands of attackers. In this paper, we primarily show how an attacker can exploit BLE advertisements to exfiltrate information from BLE-enable devices. In particular, our attack establishes a communication medium between two devices without requiring any prior authentication or pairing. We develop a proof-of-concept attack framework on the Android ecosystem and assess its performance via a thorough set of experiments. Our results indicate that such an exfiltration attack is indeed possible though with a limited data rate. Nevertheless, we also demonstrate potential use cases and enhancements to our attack that can further its severeness. Finally, we discuss possible countermeasures to prevent such an attack.",
         absbox: "absPopup6"
-    },
-
-    {
-        title : "Unsupervised Learning for Intrinsic Image Decomposition From a Single Image",
-        authors : "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "popup7",
-        image : "assets/images/research-page/imageDecomposition.png",
-        citation: {
-            vancouver: "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng. Unsupervised Learning for Intrinsic Image Decomposition From a Single Image. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 7",
-        absbox: "absPopup7"
-    },
-    {
-        title : "Forward and Backward Information Retention for Accurate Binary Neural Networks",
-        authors : "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "popup8",
-        image : "assets/images/research-page/neuralNetworks.jpg",
-        citation: {
-            vancouver: "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan. Forward and Backward Information Retention for Accurate Binary Neural Networks. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 8",
-        absbox: "absPopup8"
     }
 ];
 AOS.init();   
 const fillData = () => {
     let output = "";
     research.forEach(
-        ({image, title, authors, conferences, researchYr, citebox, citation, absbox, abstract}) =>
+        ({image,link, title, authors, conferences, researchYr, absbox, abstract}) =>
         (output +=`
             <tr data-aos="zoom-in-left"> 
                 <td class="imgCol"><img src="${image}" class="rImg"></td>
@@ -128,29 +40,23 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="#0" class="paperTitle"> ${title} </a> 
-                    <div> ${authors} </div> <div class="rConferences"> ${conferences} 
-                        <div class="researchY">${researchYr}</div>
+                    
+                    <a href="${link}" class="paperTitle"> ${title} </a> 
+                    <div> ${authors} </div> 
+                    <div class="rConferences"> ${conferences} 
+                        <div class="researchY">${researchYr}
+                        </div>
                     </div>
         
-                    <!--CITE BUTTON-->
                     <div class="d-flex" style="margin-right:5%;">
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
                             ABSTRACT
                         </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
-                            CITE
-                        </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
+
                     <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
                         <div class="card-body">
                             ${abstract}    
-                        </div>
-                    </div>
-                    <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
-                        <div class="card-body">
-                            ${citation.vancouver}    
                         </div>
                     </div>
                 </td>
