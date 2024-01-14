@@ -52,6 +52,14 @@ const projects = [
     tagimg: "",
     Previewlink: "",
     Githublink: "https://github.com/abhijeet181995/SDN-Network-Sniffer",
+  },
+  {
+    title: "Distributed Shared Memory",
+    cardImage: "assets/images/project-page/torrent.png",
+    description: "We have implemented distributed shared memory using Read Replication Algorithm.",
+    tagimg: "",
+    Previewlink: "",
+    Githublink: "https://github.com/abhijeet181995/Distributed-Shared-Memory",
   }
 ];
 
