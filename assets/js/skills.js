@@ -4,6 +4,21 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
+    title: " Koltin",
+    cardImage: "assets/images/education-page/kotlin.jpg",
+    level: "Intermediate",
+  },
+  {
+    title: " Android",
+    cardImage: "assets/images/education-page/android.jpg",
+    level: "Intermediate",
+  },
+  {
+    title: " BlockChain",
+    cardImage: "assets/images/education-page/blockchain.png",
+    level: "Intermediate",
+  },
+  {
     title: " Python",
     cardImage: "assets/images/education-page/python.png",
     level: "Advanced",
